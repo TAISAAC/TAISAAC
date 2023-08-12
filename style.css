@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+     background: linear-gradient( rgb(199, 199, 253)80%, rgb(6, 8, 124)20%);
+     height: 150vh;
+}
+.navbar{
+    width:1900px;
+    height:150px;
+    margin:auto; 
+}
+.icon1{
+    width: 200px;
+    float: left;
+    height: 30px;
+    margin: auto;
+}
+.dej{
+    width: 190px;
+    padding-top: 5px;
+    border-radius: 25px;
+}
+.menu{
+    width: 800px;
+    float: left;
+    height: 100px;
+}
+.menu ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:rgb(6, 8, 124);
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover{
+color: beige;
+text-decoration: underline;
+}
+.dej2{
+    width: 380px;
+    float:right;
+    padding-left:1px;
+    margin-right:-17px;
+    margin-top: 0px;
+    margin-right: -917px;
+    border-bottom-left-radius: 70px;
+    transition:0.5s ease;
+}
+video{
+    width: 400px;
+    margin-top: 150px;
+    padding-left: 5px;
+    border-radius: 50px;
+}
+.dropdown_menu{
+    display: none;
+}
+.menu ul li:hover .dropdown_menu{
+  display: block;
+  position:absolute;  
+}
+.dropdown_menu ul{
+    display: block;
+    margin-left: -20px;
+}
+.dropdown_menu ul li{
+    width:200px;
+    margin-block: 20px;
+    list-style: none;
+    padding: 0px;
+}
+.dropdown_menu ul li a{
+    text-decoration: underline;
+    font-weight:light;
+}
+.search{
+    width: 400px;  
+    float:left;
+    margin-left:450px;
+}
+.srch{
+    font-family: 'Segoe UI';
+    width: 320px;
+    height:43px;
+    color: rgb(14, 12, 12);
+    background: transparent;
+    border: 1px solid rgb(6, 8, 124);
+    margin-left: -350px;
+    border-radius: none;
+    font-size: 19px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.btn{
+    width:100px;
+    height:43px;
+    background-color: rgb(242, 242, 245);
+    border:2px solid rgb(5, 8, 156);
+    margin-top: 49px;
+    margin-left:-4px;
+    color: rgb(4, 13, 141);
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn:focus, .srch:focus{
+    outline: none;}
+.form{
+    width: 350px;
+    height: 612px;
+    background: linear-gradient(to top, rgba(221, 224, 226) 50%,rgb(6,8,124)50%);
+    position:absolute;
+    top: 380px;
+    left: 1533px;
+    border-top-left-radius: 50px;
+    padding: 25px;
+}
+.form h2{
+    width: 350px;
+    font-family: sans-serif;
+    text-align:center;
+    font-size:28px;
+    background-color: rgb(245, 247, 248);
+    border-radius: 100px;
+    color:rgba(5, 16, 119, 0.842);
+    margin:2px;
+    padding:2px;
+}
+.form input{
+    width: 370px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid rgba(245, 242, 242, 0.911);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: rgb(184, 191, 194);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none
+}
+.btn4{
+    width: 360px;
+    height: 35px;
+    background: rgb(184, 191, 194);
+    border:none;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 60px;
+    cursor: pointer;
+    color: white;
+    transition:0.4s ease;
+    text-align: center;
+}
+.btn4:hover{
+    background:white;
+    color:rgb(184, 191, 194)
+}
+.btn4 a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color:rgb(13, 11, 182);
+    color-scheme: rgb(28, 28, 211);
+}
+.form .link a:hover{
+    text-decoration: underline;
+}
+.Liw{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(184, 191, 194);
+
+}
+.icon ion-icon{
+    color: rgb(4, 13, 141);
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 10px;
+    transition: 0.3s ease;
+    margin-left: 10px;
+}
+.icon ion-icon:hover{
+    color: rgb(1, 1, 12);
+}
+footer{
+    position: absolute;
+    margin-top: 550px;
+    padding-left: 950px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
